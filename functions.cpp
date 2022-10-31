@@ -19,6 +19,7 @@ int power(int a,int b){
     cout<<x;   
 }
 
+// this function is to find n!
 int factorial(int n){
     int x=1;
     for (int i = 1; i <= n; i++)
@@ -27,6 +28,8 @@ int factorial(int n){
     }
     cout<<x;
 }
+
+// this function is to give output using 'print' instead of 'cout'
 string print(string x){
     cout<<x;
 }
