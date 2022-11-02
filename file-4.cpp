@@ -4,9 +4,9 @@ int main(){
 
     // it is to find multiples of a +ve integer and its number
     int div=0,input,ndiv=0,init,final;
-    cout<<"Enter a no. to find its 3 digit multiples \n";
+    cout<<"Enter a no. to find its multiples and number of the multiples\n";
     cin>>input;
-    cout<<"Enter range \n";
+    cout<<"Enter range in +ve integer \n";
     cin>>init>>final;
 
     for (int i = init; i <= final; i++)
@@ -21,6 +21,6 @@ int main(){
             ++ndiv;
         }
     }
-    cout<<endl<<"no. of 3 digit multiples of "<<input<<" = "<<div<<endl;
-    cout<<"no. of those which are not multiple of "<<input<<" = "<<ndiv;
+    cout<<endl<<"no. of multiples of "<<input<<" = "<<div<<endl;
+    cout<<"no. of those which are not multiples of "<<input<<" = "<<ndiv;
 }
