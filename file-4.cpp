@@ -3,11 +3,13 @@ using namespace std;
 int main(){
 
     // it is to find 3 digit multiples of a +ve integer and its number
-    int div=0,input,ndiv=0;
+    int div=0,input,ndiv=0,init,final;
     cout<<"Enter a no. to find its 3 digit multiples \n";
     cin>>input;
+    cout<<"Enter range \n";
+    cin>>init>>final;
 
-    for (int i = 100; i <=999; i++)
+    for (int i = init; i <= final; i++)
     {
         if (i%input==0)
         {
