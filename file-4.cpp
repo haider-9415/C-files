@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
 
-    // it is to find 3 digit multiples of a +ve integer and its number
+    // it is to find multiples of a +ve integer and its number
     int div=0,input,ndiv=0,init,final;
     cout<<"Enter a no. to find its 3 digit multiples \n";
     cin>>input;
