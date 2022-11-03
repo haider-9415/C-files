@@ -16,7 +16,7 @@ int print(int x){
     cout<<x;
 }
 
-// this function a string value using 'print' beside of 'cout'
+// this function is to print a string value using 'print' beside of 'cout'
 string print(string x){
     cout<<x;
 }
