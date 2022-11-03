@@ -16,11 +16,13 @@ int main(){
             div++;
             cout<<i<<",";
         }
-        else if (i%input!=0)
-        {
-            ++ndiv;
-        }
+        // else if (i%input!=0)
+        // {
+        //     ++ndiv;
+        // }
     }
     cout<<endl<<"no. of multiples of "<<input<<" = "<<div<<endl;
-    cout<<"no. of those which are not multiples of "<<input<<" = "<<ndiv;
+    cout<<"no. of those which are not multiples of "<<input<<" = "<<((final-init)+1)-div; //Because, total numbers in range 'a' to 'b' = (a-b)+1
+    // or
+    // cout<<"no. of those which are not multiples of "<<input<<" = "<<ndiv;
 }
