@@ -125,7 +125,7 @@ void print_spirally(vector<vector<int>> &matrix){
 int main(){
 
     /* Problem 1 */
-    /* Print elements of a given matrix spirally in anti-clockwise order */
+    /* Print elements of a given matrix spirally in anti-clockwise direction */
     cout<<"No. of rows: ";
     int r; cin>>r;
     cout<<"No. of columns: ";
@@ -159,7 +159,7 @@ int main(){
 
 
     /* Problem 2 */
-    /* Print elements of a given matrix spirally in clockwise order */
+    /* Print elements of a given matrix spirally in clockwise direction */
     cout<<"No. of rows: ";
     int r2; cin>>r2;
     cout<<"No. of columns: ";
